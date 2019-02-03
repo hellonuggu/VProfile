@@ -162,6 +162,11 @@
 	  <name>a</name>
           <url>http://18.220.195.36:8081/nexus/content/repositories/1</url>
     </repository>
+    <snapshotRepository>
+          <id>2</id>
+	  <name>b</name>
+          <url>http://18.220.195.36:8081/nexus/content/repositories/2</url>
+    </snapshotRepository>
 </distributionManagement>
 	
 </project>
