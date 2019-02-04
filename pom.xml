@@ -158,11 +158,13 @@
     </build>
 <distributionManagement>
   <repository>
-    <id>Mvn-project1</id>
+    <id>deployment</id>
+    <name>Internal Releases</name>	  
     <url>http://13.58.138.25:8081/nexus/content/repositories/Mvn-project1</url>
   </repository>
   <snapshotRepository>
-    <id>Mvn-project2</id>
+    <id>deployment</id>
+    <name>Internal Releases</name>
     <url>http://13.58.138.25:8081/nexus/content/repositories/Mvn-project2</url>
   </snapshotRepository>
 </distributionManagement>
