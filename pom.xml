@@ -157,16 +157,14 @@
         </plugins>
     </build>
 <distributionManagement>
-    <repository>
-          <id>1</id>
-	  <name>a</name>
-          <url>http://18.220.195.36:8081/nexus/content/repositories/1</url>
-    </repository>
-    <snapshotRepository>
-          <id>2</id>
-	  <name>b</name>
-          <url>http://18.220.195.36:8081/nexus/content/repositories/2</url>
-    </snapshotRepository>
+  <repository>
+    <id>Mvn-project1</id>
+    <url>http://13.58.138.25:8081/nexus/content/repositories/Mvn-project1</url>
+  </repository>
+  <snapshotRepository>
+    <id>Mvn-project2</id>
+    <url>http://13.58.138.25:8081/nexus/content/repositories/Mvn-project2</url>
+  </snapshotRepository>
 </distributionManagement>
 	
 </project>
